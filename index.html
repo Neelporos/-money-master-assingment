@@ -33,26 +33,26 @@
                     <!-- Input Section  -->
 
                     <p class="font-semibold text-2xl">Income</p>
-                    <p class="font-semibold mt-5">Income: <span> <input class="bg-gray-200 p-2 rounded mx-2"
-                                type="number"></span>
+                    <p class="font-semibold mt-5">Income: <span> <input id="total-income"
+                                class="bg-gray-200 p-2 rounded mx-2" type="number"></span>
                     </p>
                     <p class="font-semibold text-2xl my-5">Expenses</p>
-                    <p class="font-semibold mt-5 ml-5">Food: <span> <input class="bg-gray-200 p-2 rounded mx-2"
-                                type="number"></span>
+                    <p class="font-semibold mt-5 ml-5">Food: <span> <input id="food-cost"
+                                class="bg-gray-200 p-2 rounded mx-2" type="number"></span>
                     </p>
-                    <p class="font-semibold mt-5 ml-5">Rent: <span> <input class="bg-gray-200 p-2 rounded mx-3"
-                                type="number"></span>
+                    <p class="font-semibold mt-5 ml-5">Rent: <span> <input id="rent-cost"
+                                class="bg-gray-200 p-2 rounded mx-3" type="number"></span>
                     </p>
-                    <p class="font-semibold mt-5">Clothes: <span> <input class="bg-gray-200 p-2 rounded mx-2"
-                                type="number"></span>
+                    <p class="font-semibold mt-5">Clothes: <span> <input id="clothes-cost"
+                                class="bg-gray-200 p-2 rounded mx-2" type="number"></span>
                     </p>
 
                     <!-- Calculate Section -->
 
-                    <button class="rounded text-1xl px-10 py-2 m-5 bg-blue-400">Calculate</button>
+                    <button id="calculate-btn" class="rounded text-1xl px-10 py-2 m-5 bg-blue-400">Calculate</button>
 
-                    <h3 class="m-2 text-2xl semibold">Total Expenses: <span>5500</span> </h3>
-                    <h3 class="m-2 text-2xl semibold">Balance: <span>4500</span></h3>
+                    <h3 class="m-2 text-2xl semibold">Total Expenses: <span id="total-cost">00</span> </h3>
+                    <h3 class="m-2 text-2xl semibold">Balance: <span id="balance">00</span></h3>
                     <h3>Save: <input class="bg-gray-200 px-14 py-2 mx-2 rounded w-16 type=" text"> %
                         <button class="rounded px-14 py-2 m-5 bg-blue-400">Save</button>
                     </h3>
