@@ -21,16 +21,15 @@
     <main>
         <!-- Body Content Section -->
         <section>
-            <div class="grid grid-cols-2 gap-10 p-10">
+            <div class=" gap-10 p-10 md:grid xl:grid grid-cols-2 2xl:grid grid-cols-2">
 
                 <!-- Image Section -->
                 <div>
                     <img src="image/pexels-karolina-grabowska-4386335.jpg" alt="">
                 </div>
 
+                <!-- Input Section  -->
                 <div class="text-center bg-zinc-100 p-10">
-
-                    <!-- Input Section  -->
 
                     <p class="font-semibold text-2xl">Income</p>
                     <p class="font-semibold mt-5">Income: <span> <input id="total-income"
@@ -53,11 +52,11 @@
 
                     <h3 class="m-2 text-2xl semibold">Total Expenses: <span id="total-cost">00</span> </h3>
                     <h3 class="m-2 text-2xl semibold">Balance: <span id="balance">00</span></h3>
-                    <h3>Save: <input class="bg-gray-200 px-14 py-2 mx-2 rounded w-16 type=" text"> %
-                        <button class="rounded px-14 py-2 m-5 bg-blue-400">Save</button>
+                    <h3>Save: <input id="saving-input" class="bg-gray-200 p-2 rounded mx-2 w-24" type="number"> %
+                        <button id="savaing-btn" class="rounded px-14 py-2 m-5 bg-blue-400">Save</button>
                     </h3>
-                    <h3 class="m-2 text-2xl semibold">Saving Amount: <span>2000</span> </h3>
-                    <h3 class="m-2 text-2xl semibold">Remaining Balance: <span>2500</span></h3>
+                    <h3 class="m-2 text-2xl semibold">Saving Amount: <span id="saving-amount">00</span> </h3>
+                    <h3 class="m-2 text-2xl semibold">Remaining Balance: <span id="remaing-balance">00</span></h3>
                 </div>
             </div>
         </section>

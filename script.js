@@ -21,4 +21,22 @@ calculateButton.addEventListener('click', function () {
 })
 
 
+const savingButton = document.getElementById("savaing-btn");
+savingButton.addEventListener("click", function () {
 
+    const savingInput = document.getElementById("saving-input").value;
+    const totalIncome = document.getElementById('total-income').value;
+    const totalCost = document.getElementById('total-cost').innerText;
+
+    const savingAmountId = document.getElementById("saving-amount");
+    const savingAmount = totalIncome * (savingInput / 100);
+
+    savingAmountId.innerText = savingAmount;
+
+    const remaingBalance = totalIncome - totalCost - savingAmount;
+
+    console.log(remaingBalance);
+    const remaingBalanceId = document.getElementById('remaing-balance');
+
+    remaingBalanceId.innerText = remaingBalance;
+})
